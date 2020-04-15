@@ -7,6 +7,14 @@ handlers:
   static_files: www/index.html
   upload: www/index.html
 
+- url: /minimax.js
+  static_files: www/minimax.js
+  upload: www/minimax.js
+
+  - url: /sketch.js
+  static_files: www/sketch.js
+  upload: www/sketch.js
+
 - url: /(.*)
   static_files: www/404.html
-  upload: www/(.*)
+  upload: www/404.html
