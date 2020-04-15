@@ -11,7 +11,7 @@ handlers:
   static_files: www/minimax.js
   upload: www/minimax.js
 
-  - url: /sketch.js
+- url: /sketch.js
   static_files: www/sketch.js
   upload: www/sketch.js
 
